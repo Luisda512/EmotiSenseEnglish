@@ -95,7 +95,7 @@ export default function Page() {
         happy: 'happy',
         neutral: 'neutral',
         sad: 'sad',
-        surprised: 'surpirsed'
+        surprised: 'surprised'
     };
 
     const emotionColors: { [key: string]: string } = {
@@ -128,7 +128,7 @@ export default function Page() {
 
     return (
         <section className='container py-8 mx-auto w-full'>
-            <h1 className='py-8 text-center font-bold text-3xl'>Detector de emociones EmotiSense</h1>
+            <h1 className='py-8 text-center font-bold text-3xl'>Real-time emotions detector</h1>
             <section className='flex flex-col lg:flex-row items-center lg:items-end justify-center gap-2 lg:gap-16 w-full'>
                 <FileInput onChange={handleImageUpload}/>
                 <p>O</p>
