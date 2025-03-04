@@ -131,7 +131,7 @@ export default function Page() {
             <h1 className='py-8 text-center font-bold text-3xl'>Real-time emotions detector</h1>
             <section className='flex flex-col lg:flex-row items-center lg:items-end justify-center gap-2 lg:gap-16 w-full'>
                 <FileInput onChange={handleImageUpload}/>
-                <p>O</p>
+                <p>Or</p>
                 <CameraButton onClick={startCamera}/>
             </section>
             <section className=' mt-8 flex flex-col-reverse lg:flex-row items-center lg:items-start justify-center gap-4 lg:gap-16'>
